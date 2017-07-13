@@ -4,7 +4,7 @@
         <title>Image Slider</title>
         <link rel="stylesheet" href="stylesheet.css">
     </head>
-    <body>
+    <body onload="loaded()">
         <header>
             <div>Coding Image Slider</div>
         </header>
@@ -12,13 +12,14 @@
             <img id="image"></img>
         </section>
         <aside id="leftButton">
-            <button id="back" class="button">Back</button>
+            <button onclick="back()" id="back" class="button">Back</button>
         </aside>
         <aside id="rightButton">
-            <button id="next" class="button">Next</button>
+            <button onclick="next()" id="next" class="button">Next</button>
         </aside>
         <footer>
             <div>This Is The Footer</div>
         </footer>
+        <script src="logic.js"></script>
     </body>
 </html>
