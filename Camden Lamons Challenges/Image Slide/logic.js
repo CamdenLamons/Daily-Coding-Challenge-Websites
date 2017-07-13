@@ -1,6 +1,6 @@
 var imageNumber = 0;
 var imageNode = document.getElementById("image");
-var imageArray = ["codingImageOne.png","codingImageTwo.png","codingImageThree.png"];
+var imageArray = ["codingImageOne.jpg","codingImageTwo.jpg","codingImageThree.png"];
 function loaded(){imageNode.src = imageArray[imageNumber]};
 function next(){
     imageNumber += 1;
